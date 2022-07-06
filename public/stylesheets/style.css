@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body{
+  width: 100%;
+  height: 100%;
+}
+#main{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(2, 2, 34);
+}
+#main #nav{
+  width: 90%;
+  min-height: 12vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-left: 50px;
+}
+#main #nav #nav1{
+  width: 35%;
+  min-height: inherit; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#main #nav #nav1 #a1{
+  width: 12%;
+  min-height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#main #nav #nav1 #a4{
+  width: 12%;
+  min-height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: gilroy light;
+  font-size: 11px;
+}
+#main #nav #nav1 #a5{
+  width: 12%;
+  min-height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: gilroy light;
+  font-size: 11px;
+  margin-left: 10px;
+}
+#main #nav #nav1 #a7{
+  width: 12%;
+  min-height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 153, 0);
+  font-family: gilroy extrabold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+#main #nav #nav2{
+  width: 50%;
+  min-height: inherit;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#main #nav #nav2 #b1{
+  width: 45%;
+  min-height: 4vh;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: gilroy light;
+  font-size: 11px;
+}
+#main #nav #nav2 #b2{
+  width: 25%;
+  min-height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: gilroy light;
+  font-size: 11px;
+  background-color: blue;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+#main #nav #nav2 #b3{
+  width: 20%;
+  min-height: 4vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: gilroy light;
+  font-size: 11px;
+}
+#main #box{
+  margin-top: 20px;
+  margin-left: 60px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main #box #box1{
+  width: 35%;
+  min-height: 55vh;
+  padding: 10px 20px;
+  background-color: rgb(3, 3, 46);
+}
+#main #box #box1 .c1{
+  width: 60%;
+  min-height: 8vh;
+  margin-top: 30px;
+  margin-left: 20px;
+  display: flex;
+  align-items: center;
+  font-family: gilroy extrabold;
+  color: white;
+}
+#main #box #box1 .c1 h2{
+  margin-left: 10px;
+  word-spacing: 5px;
+}
+#main #box #box1 .c2{
+  width: 60%;
+  min-height: 4vh;
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: gilroy light;
+  color: white;
+  opacity: 0.5;
+}
+#main #box #box1 .c2 h3{
+  font-size: 15px;
+  margin-left: 15px;
+  word-spacing: 10px;
+}
+#main #box #box1 .c3{
+  width: 80%;
+  min-height: 20vh;
+  display: flex;
+  align-items: flex-start;
+  padding: 0px 5px;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-family: gilroy light;
+  color: white;
+  opacity: 0.5;
+}
+#main #box #box1 .c3 p{
+  font-size: 12px;
+  margin-left: 10px;
+}
+#main #box #box1 .c4{
+  width: 80%;
+  min-height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  margin-left: 20px;
+  font-family: gilroy light;
+  color: white;
+  opacity: 1;
+}
+
+#main #box #box1 .c4 .d1{
+  width: 40%;
+  height: 8vh;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: royalblue;
+}
+#main #box #box1 .c4 .d2{
+  width: 40%;
+  height: 8vh;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: royalblue;
+}
+
+#main #box #box1 .c4 .d1 a{
+  text-decoration: none;
+  font-size: 15px;
+  font-family: gilroy extrabold;
+  color: royalblue;
+}
+#main #box #box1 .c4 .d2 a{
+  text-decoration: none;
+  font-size: 15px;
+  font-family: gilroy extrabold;
+  color: royalblue;
+}
+
+#main #box #box2{
+  width: 65%;
+  height: 55vh;
+  background-size: cover;
+  background-position: center;
+}
+#main #box #box2 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#main #createapost{
+  width: 14%;
+  height: 6vh;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+#main #createapost a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: gilroy extrabold;
+  color: royalblue;
+}

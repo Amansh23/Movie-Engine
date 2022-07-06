@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="../stylesheets/style.css">
+</head>
+<body>
+    <div id="main">
+        <div id="nav">
+            <div id="nav1">
+                <div id="a1"><i class="ri-menu-line"></i></div>
+                
+                <!-- <div id="a3"><h2>TV</h2></div> -->
+                <div id="a4"><h2>Movies</h2></div>
+                <div id="a5"><h2>Sports</h2></div>
+                <!-- <div id="a6"><h2>Disney</h2><h3>+</h3></div> -->
+                <div id="a7">KIDS</div>
+            </div>
+            <div id="nav2">
+                <div id="b1">
+                    <div class="l1"><h3>Search</h3></div>
+                    <div class="l2"><i class="ri-search-2-line"></i></div>
+                </div>
+                <div id="b2"><h3>SUBSCRIBE</h3></div>
+                <div id="b3"><h3>LOGIN</h3></div>
+            </div>
+        </div>
+        
+     <div id="createapost">
+       <a href="/create">Create A Post</a>
+     </div>
+       
+     
+     <% posts.forEach(function(val){ %>  
+     <div id="box">   
+        <div id="box1">
+          <div class="c1"><h2><%= val.productname  %></h2></div>
+          <div class="c2"><h3><%= val.producttheme %></h3></div>
+          <div class="c3"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam voluptates impedit esse nulla vero omnis minima natus quas beatae. Odio.</p></div>
+          <div class="c4">
+              <div class="d1">
+                <a href="/update/<%= val._id %>">Update</a>
+              </div>
+              <div class="d2">
+                  <a href="/delete/<%= val._id %>">Delete</a>
+              </div>
+          </div>
+        </div>
+        <div id="box2"><img src="<%= val.productimage%>" alt=""></div>
+    </div>
+    <% }) %>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../javascripts/script.js"></script>
+</body>
+</html>
